@@ -1,1 +1,1 @@
-scoreboard objectives add grass_time dummy
+scoreboard objectives add grass_time dummy "Grass Time"
