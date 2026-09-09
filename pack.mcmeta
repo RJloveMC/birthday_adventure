@@ -8,6 +8,10 @@
       {
         "namespace": "minecraft",
         "path": "recipes/(stripped_)?((acacia|birch|cherry|dark_oak|jungle|mangrove|oak|spruce)_wood|(crimson|warped)_hyphae)\\.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/((wooden|stone|iron|golden|diamond)_sword|netherite_sword_smithing)\\.json"
       }
     ]
   }

@@ -1,0 +1,4 @@
+{
+  "function": "minecraft:set_nbt",
+  "tag": "{birthday_button_sword:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"birthday_adventure.button_sword_damage\",Amount:11.0d,Operation:0,UUID:[I;142536,274819,381927,491823],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"birthday_adventure.button_sword_speed\",Amount:-2.4d,Operation:0,UUID:[I;142536,274819,381927,491824],Slot:\"mainhand\"}]}"
+}
