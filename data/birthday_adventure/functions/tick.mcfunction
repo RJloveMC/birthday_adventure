@@ -6,3 +6,7 @@ execute as @a[scores={grass_time=100..}] run effect give @s minecraft:nausea 5 1
 
 # Give held totems Button sword stats: base 1 + 11 damage, base 4 - 2.4 speed.
 execute as @a[nbt={SelectedItem:{id:"minecraft:totem_of_undying"}}] unless data entity @s SelectedItem.tag.birthday_button_sword run item modify entity @s weapon.mainhand birthday_adventure:button_sword
+
+# Give the tutorial once on first join, then after each death when alive again.
+execute as @a[tag=!tutorial_received] unless entity @s[nbt={Health:0.0f}] run function birthday_adventure:give_tutorial
+execute as @a[scores={tutorial_deaths=1..}] unless entity @s[nbt={Health:0.0f}] run function birthday_adventure:give_tutorial
