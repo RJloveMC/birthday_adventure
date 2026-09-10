@@ -9,4 +9,5 @@ execute as @a[nbt={SelectedItem:{id:"minecraft:totem_of_undying"}}] unless data 
 
 # Give the tutorial once on first join, then after each death when alive again.
 execute as @a[tag=!tutorial_received] unless entity @s[nbt={Health:0.0f}] run function birthday_adventure:give_tutorial
-execute as @a[scores={tutorial_deaths=1..}] unless entity @s[nbt={Health:0.0f}] run function birthday_adventure:give_tutorial
+execute as @a[scores={tutorial_book_give=1..}] unless entity @s[nbt={Health:0.0f}] run function birthday_adventure:give_tutorial
+execute as @a[scores={tutorial_book_give_set=1}] unless entity @s[nbt={Health:0.0f}] run function birthday_adventure:set_give_tutorial

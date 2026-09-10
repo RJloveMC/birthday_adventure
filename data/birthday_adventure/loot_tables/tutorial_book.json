@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{title:\"Birthday Survival Guide\",author:\"MBD\",pages:['{\"text\":\"Welcome!\\\\n\\\\nLogs give only 1 plank.\\\\n\\\\nCraft a table using 4 logs.\"}','{\"text\":\"Button sword\\\\n\\\\nPlace two buttons above one stick to craft a totem.\\\\n\\\\nHold it to gain 12 attack damage and 1.6 attack speed.\"}','{\"text\":\"Watch your step!\\\\n\\\\nStanding on grass too long causes nausea. Jumping will not reset the timer.\"}']}"
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "birthday_adventure:tutorial"
+              },
+              "ops": [
+                {
+                  "source": "unstack_id",
+                  "target": "unstack_id",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
