@@ -1,0 +1,1 @@
+particle minecraft:flame ~ ~1 ~ 0.3 0.7 0.3 0.02 5 force @a
