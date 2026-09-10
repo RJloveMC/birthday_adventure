@@ -9,7 +9,8 @@ execute as @a[nbt={SelectedItem:{id:"minecraft:totem_of_undying"}}] unless data 
 
 # Umbrella
 execute as @a[nbt={SelectedItem:{id:"minecraft:wooden_sword"}}] unless data entity @s SelectedItem.tag.birthday_umbrella run item modify entity @s weapon.mainhand birthday_adventure:umbrella
-execute as @a[nbt={SelectedItem:{tag:{"birthday_umbrella":1b}}}] run effect give @s fire_resistance 1 1
+execute as @a[nbt={SelectedItem:{tag:{"birthday_adventure:birthday_umbrella":1b}}}] run effect give @s minecraft:fire_resistance 1 2
+execute as @a[nbt={Inventory:[{Slot:-106b,tag:{"birthday_adventure:birthday_umbrella":1b}}]}] run effect give @s minecraft:fire_resistance 1 2
 
 # Give the tutorial once on first join, then after each death when alive again.
 execute as @a[tag=!tutorial_received] unless entity @s[nbt={Health:0.0f}] run function birthday_adventure:give_tutorial
