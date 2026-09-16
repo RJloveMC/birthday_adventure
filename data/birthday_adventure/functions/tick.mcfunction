@@ -43,3 +43,8 @@ execute as @a[scores={furnace_heat=20..}] at @s run function birthday_adventure:
 execute in minecraft:overworld run function birthday_adventure:flour/scan
 execute in minecraft:the_nether run function birthday_adventure:flour/scan
 execute in minecraft:the_end run function birthday_adventure:flour/scan
+
+# Thrown eggs leave poison clouds when their projectiles disappear on impact.
+execute in minecraft:overworld run function birthday_adventure:egg/scan
+execute in minecraft:the_nether run function birthday_adventure:egg/scan
+execute in minecraft:the_end run function birthday_adventure:egg/scan
