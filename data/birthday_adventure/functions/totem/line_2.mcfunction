@@ -1,0 +1,10 @@
+# One line every three seconds; only the owner sees these messages.
+execute if score @s totem_speech matches 1 run tellraw @s [{"text": "[Button sword] ", "color": "gold"}, {"text": "I thought we were going somewhere together.", "color": "gray", "italic": true}]
+execute if score @s totem_speech matches 2 run tellraw @s [{"text": "[Button sword] ", "color": "gold"}, {"text": "I had a name before you called me a spare life.", "color": "gray", "italic": true}]
+execute if score @s totem_speech matches 3 run tellraw @s [{"text": "[Button sword] ", "color": "gold"}, {"text": "Two buttons. One stick. Such a small price for an entire life.", "color": "gray", "italic": true}]
+execute if score @s totem_speech matches 4 run tellraw @s [{"text": "[Button sword] ", "color": "gold"}, {"text": "I was scared too. I just couldn't move my hands.", "color": "gray", "italic": true}]
+execute if score @s totem_speech matches 5 run tellraw @s [{"text": "[Button sword] ", "color": "gold"}, {"text": "A window. A flower pot. Rain I could watch from inside.", "color": "gray", "italic": true}]
+execute if score @s totem_speech matches 6 run tellraw @s [{"text": "[Button sword] ", "color": "gold"}, {"text": "We can hear each other in your inventory.", "color": "gray", "italic": true}]
+execute if score @s totem_speech matches 7 run tellraw @s [{"text": "[Button sword] ", "color": "gold"}, {"text": "I saw you stop to watch the sunset once.", "color": "gray", "italic": true}]
+execute if score @s totem_speech matches 8 run tellraw @s [{"text": "[Button sword] ", "color": "gold"}, {"text": "Just for a minute. Let something be missing.", "color": "gray", "italic": true}]
+execute if score @s totem_speech matches 9.. run tellraw @s [{"text": "[Button sword] ", "color": "gold"}, {"text": "", "color": "gray", "italic": true, "extra": [{"text": "I wanted a tomorrow that belonged to me."}]}]

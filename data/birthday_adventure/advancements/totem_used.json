@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "used": {
+      "trigger": "minecraft:used_totem"
+    }
+  },
+  "rewards": {
+    "function": "birthday_adventure:totem/on_pop"
+  }
+}

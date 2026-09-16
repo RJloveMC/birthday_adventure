@@ -23,3 +23,6 @@ execute as @a at @s if dimension minecraft:the_nether run scoreboard players add
 execute as @a[scores={nether_heat=20..}] at @s if dimension minecraft:the_nether run damage @s 1 minecraft:on_fire
 scoreboard players set @a[scores={nether_heat=20..}] nether_heat 0
 execute as @e[type=#birthday_adventure:undead,tag=!umbrella_equipped] run function birthday_adventure:equip_undead
+
+# Queue each totem monologue separately for the player who used it.
+execute as @a[scores={totem_pops=1..}] run function birthday_adventure:totem/tick
