@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "milk": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bucket"
+          ]
+        },
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"ravager_milk_hitbox\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "birthday_adventure:milk/ravager"
+  }
+}

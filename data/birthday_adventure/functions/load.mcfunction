@@ -10,3 +10,7 @@ scoreboard objectives add nether_heat dummy
 scoreboard objectives add totem_pops dummy
 scoreboard objectives add totem_speech dummy
 scoreboard objectives add totem_voice dummy
+
+# Unique ravager/hitbox pairs and temporary milking results.
+scoreboard objectives add milk_link dummy
+scoreboard objectives add milk_tmp dummy

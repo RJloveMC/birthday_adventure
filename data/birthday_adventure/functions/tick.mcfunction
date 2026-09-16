@@ -26,3 +26,11 @@ execute as @e[type=#birthday_adventure:undead,tag=!umbrella_equipped] run functi
 
 # Queue each totem monologue separately for the player who used it.
 execute as @a[scores={totem_pops=1..}] run function birthday_adventure:totem/tick
+
+# Follow loaded ravagers in each vanilla dimension.
+execute in minecraft:overworld run function birthday_adventure:milk/dimension
+execute in minecraft:the_nether run function birthday_adventure:milk/dimension
+execute in minecraft:the_end run function birthday_adventure:milk/dimension
+
+# Only marked Ravager Milk is usable, including after reloads and late updates.
+execute as @a[nbt={Inventory:[{id:"minecraft:milk_bucket"}]}] run function birthday_adventure:milk/check_inventory
