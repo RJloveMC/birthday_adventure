@@ -1,0 +1,26 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "MMM",
+    "BDB",
+    "FFF"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "D": {
+        "item": "minecraft:dragon_egg"
+    },
+    "B": {
+        "item": "minecraft:cocoa_beans"
+    },
+    "F":{
+        "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "minecraft:crafting_table"
+  }
+}
