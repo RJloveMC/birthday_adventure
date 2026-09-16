@@ -20,7 +20,7 @@ execute as @a[scores={tutorial_book_give_set=1}] unless entity @s[nbt={Health:0.
 # Nether heat: 1 fire damage every 20 ticks; Fire Resistance blocks the damage.
 execute as @a at @s unless dimension minecraft:the_nether run scoreboard players set @s nether_heat 0
 execute as @a at @s if dimension minecraft:the_nether run scoreboard players add @s nether_heat 1
-execute as @a[scores={nether_heat=20..}] at @s if dimension minecraft:the_nether run damage @s 1 minecraft:on_fire
+execute as @a[scores={nether_heat=20..}] at @s if dimension minecraft:the_nether run function birthday_adventure:nether/heat
 scoreboard players set @a[scores={nether_heat=20..}] nether_heat 0
 execute as @e[type=#birthday_adventure:undead,tag=!umbrella_equipped] run function birthday_adventure:equip_undead
 
@@ -34,3 +34,7 @@ execute in minecraft:the_end run function birthday_adventure:milk/dimension
 
 # Only marked Ravager Milk is usable, including after reloads and late updates.
 execute as @a[nbt={Inventory:[{id:"minecraft:milk_bucket"}]}] run function birthday_adventure:milk/check_inventory
+
+# Check furnace heat once per second for each player.
+scoreboard players add @a furnace_heat 1
+execute as @a[scores={furnace_heat=20..}] at @s run function birthday_adventure:furnace/check
