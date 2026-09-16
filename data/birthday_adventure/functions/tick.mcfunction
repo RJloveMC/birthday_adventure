@@ -38,3 +38,8 @@ execute as @a[nbt={Inventory:[{id:"minecraft:milk_bucket"}]}] run function birth
 # Check furnace heat once per second for each player.
 scoreboard players add @a furnace_heat 1
 execute as @a[scores={furnace_heat=20..}] at @s run function birthday_adventure:furnace/check
+
+# Grind dropped wheat into flour in all vanilla dimensions.
+execute in minecraft:overworld run function birthday_adventure:flour/scan
+execute in minecraft:the_nether run function birthday_adventure:flour/scan
+execute in minecraft:the_end run function birthday_adventure:flour/scan

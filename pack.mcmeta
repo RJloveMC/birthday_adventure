@@ -12,6 +12,10 @@
       {
         "namespace": "minecraft",
         "path": "recipes/((wooden|stone|iron|golden|diamond)_sword|netherite_sword_smithing)\\.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/sugar_from_(sugar_cane|honey_bottle)\\.json"
       }
     ]
   }
