@@ -1,0 +1,23 @@
+{
+  "parent": "birthday_adventure:join",
+  "display": {
+    "icon": {
+      "item": "minecraft:cake"
+    },
+    "title": {
+      "text": "Happy birthday!!!!"
+    },
+    "description": {
+      "text": "Thank you for wasting your time playing this"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "birthday": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

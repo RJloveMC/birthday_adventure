@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "cake": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cake"
+      }
+    }
+  },
+  "rewards": {
+    "function": "birthday_adventure:birthday/celebrate"
+  }
+}
