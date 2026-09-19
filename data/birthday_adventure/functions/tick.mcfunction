@@ -48,3 +48,8 @@ execute in minecraft:the_end run function birthday_adventure:flour/scan
 execute in minecraft:overworld run function birthday_adventure:egg/scan
 execute in minecraft:the_nether run function birthday_adventure:egg/scan
 execute in minecraft:the_end run function birthday_adventure:egg/scan
+
+# Freeze Ravager Milk into Ice Cream on any vanilla ice surface.
+execute in minecraft:overworld run function birthday_adventure:ice_cream/scan
+execute in minecraft:the_nether run function birthday_adventure:ice_cream/scan
+execute in minecraft:the_end run function birthday_adventure:ice_cream/scan
