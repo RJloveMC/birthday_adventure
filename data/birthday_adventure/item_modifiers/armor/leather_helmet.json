@@ -1,0 +1,4 @@
+{
+  "function": "minecraft:set_nbt",
+  "tag": "{birthday_leather_armor:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"birthday_adventure.leather_helmet\",Amount:2.0d,Operation:0,UUID:[I;182941,729481,592813,600001],Slot:\"head\"}]}"
+}

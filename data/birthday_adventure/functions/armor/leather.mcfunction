@@ -1,0 +1,11 @@
+# Upgrade equipped leather once; merge NBT to preserve dye, enchantments, and damage.
+execute if data entity @s Inventory[{Slot:103b,id:"minecraft:leather_helmet"}] unless data entity @s Inventory[{Slot:103b,tag:{birthday_leather_armor:1b}}] run item modify entity @s armor.head birthday_adventure:armor/leather_helmet
+execute if data entity @s Inventory[{Slot:102b,id:"minecraft:leather_chestplate"}] unless data entity @s Inventory[{Slot:102b,tag:{birthday_leather_armor:1b}}] run item modify entity @s armor.chest birthday_adventure:armor/leather_chestplate
+execute if data entity @s Inventory[{Slot:101b,id:"minecraft:leather_leggings"}] unless data entity @s Inventory[{Slot:101b,tag:{birthday_leather_armor:1b}}] run item modify entity @s armor.legs birthday_adventure:armor/leather_leggings
+execute if data entity @s Inventory[{Slot:100b,id:"minecraft:leather_boots"}] unless data entity @s Inventory[{Slot:100b,tag:{birthday_leather_armor:1b}}] run item modify entity @s armor.feet birthday_adventure:armor/leather_boots
+
+# Gold-backed leather uses the same 17-point armor set and vanilla piglin protection.
+execute if data entity @s Inventory[{Slot:103b,id:"minecraft:golden_helmet"}] unless data entity @s Inventory[{Slot:103b,tag:{birthday_leather_armor:1b}}] run item modify entity @s armor.head birthday_adventure:armor/leather_helmet
+execute if data entity @s Inventory[{Slot:102b,id:"minecraft:golden_chestplate"}] unless data entity @s Inventory[{Slot:102b,tag:{birthday_leather_armor:1b}}] run item modify entity @s armor.chest birthday_adventure:armor/leather_chestplate
+execute if data entity @s Inventory[{Slot:101b,id:"minecraft:golden_leggings"}] unless data entity @s Inventory[{Slot:101b,tag:{birthday_leather_armor:1b}}] run item modify entity @s armor.legs birthday_adventure:armor/leather_leggings
+execute if data entity @s Inventory[{Slot:100b,id:"minecraft:golden_boots"}] unless data entity @s Inventory[{Slot:100b,tag:{birthday_leather_armor:1b}}] run item modify entity @s armor.feet birthday_adventure:armor/leather_boots

@@ -3,5 +3,9 @@
   "item.minecraft.wooden_sword": "Wooden Umbrella",
   "item.minecraft.sugar": "Flour",
   "item.minecraft.egg": "Rotten Egg",
-  "item.minecraft.cocoa_beans": "Ice Cream"
+  "item.minecraft.cocoa_beans": "Ice Cream",
+  "item.minecraft.golden_helmet": "Leather Helmet",
+  "item.minecraft.golden_chestplate": "Leather Chestplate",
+  "item.minecraft.golden_leggings": "Leather Leggings",
+  "item.minecraft.golden_boots": "Leather Boots"
 }
