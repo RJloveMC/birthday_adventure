@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{title:\"Birthday Survival Guide\",author:\"MBD\",pages:['{\"text\":\"Welcome!\\\\n\\\\nLogs give only 1 plank.\\\\n\\\\nCraft a table using 4 logs.\"}','{\"text\":\"Button sword\\\\n\\\\nPlace two buttons above one stick to craft a totem.\\\\n\\\\nHold it to gain 12 attack damage and 1.6 attack speed.\"}','{\"text\":\"Watch your step!\\\\n\\\\nStanding on grass too long causes nausea. Jumping will not reset the timer.\"}']}"
+              "tag": "{title:\"HOW TO MAKE CAK!!11!!1!\",author:\"THE GREATEST CAKR\",pages:['{\"text\": \"HELLO, MINH!!! \\\\nWE MADE YOU THIS MINECRAFT DATAPACK FOR YOU TO ENJOY!1!!1!!!\\\\n\\\\nYOUR GOAL IS TO MAKE A BIRTHDAY CAKE!!!!\\\\n\\\\nRECIPE IN THE NEXT PAGE -------->>>>>>\"}','{\"text\": \"\\\\nCAKE RECIPE:\\\\nMILK   MILK  MILK\\\\nIC     EGG   IC\\\\nFLOUR FLOUR FLOUR\\\\n\\\\nIC = ICE CREAM\\\\n\\\\nMAKE IN A CRAFTING TABLE AND HEAT IT WITH THE HATRED YOU HAVE FOR US!!!!\"}','{\"text\": \"FOR THE INGREDIENTS:\\\\n1. YOU WILL NEED THE HIGHEST QUALITY MILK\\\\n2. EGGS\\\\n3. ICE CREAM WHICH YOU FREEZE MILK WITH ICE\\\\n4. YOU NEED TO GRIND WHEAT TO MAKE FLOUR\"}']}"
             },
             {
               "function": "minecraft:copy_nbt",
