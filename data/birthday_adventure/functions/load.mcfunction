@@ -19,3 +19,9 @@ scoreboard objectives add furnace_hurt dummy
 scoreboard objectives add furnace_line dummy
 scoreboard objectives add nether_hurt dummy
 scoreboard objectives add nether_line dummy
+
+# Repeating door-knocking scare; all timers persist through reloads.
+scoreboard objectives add knock_wait dummy
+scoreboard objectives add knock_time dummy
+scoreboard objectives add knock_phase dummy
+scoreboard players set #range knock_wait 18001

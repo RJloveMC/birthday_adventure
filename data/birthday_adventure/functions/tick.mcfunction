@@ -53,3 +53,6 @@ execute in minecraft:the_end run function birthday_adventure:egg/scan
 execute in minecraft:overworld run function birthday_adventure:ice_cream/scan
 execute in minecraft:the_nether run function birthday_adventure:ice_cream/scan
 execute in minecraft:the_end run function birthday_adventure:ice_cream/scan
+
+# Private knocking with a fresh 15-30 minute delay after each sequence.
+function birthday_adventure:knock/tick

@@ -1,0 +1,10 @@
+{
+  "door_knock": {
+    "sounds": [
+      {
+        "name": "birthday_adventure:door_knock",
+        "stream": false
+      }
+    ]
+  }
+}
