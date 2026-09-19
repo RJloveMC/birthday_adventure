@@ -1,0 +1,4 @@
+{
+  "function": "minecraft:set_nbt",
+  "tag": "{birthday_gold_armor:1b,birthday_leather_armor:0b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"birthday_adventure.gold_boots\",Amount:1.0d,Operation:0,UUID:[I;182941,729481,592813,600004],Slot:\"feet\"}]}"
+}

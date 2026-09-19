@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "birthday_adventure:item/transparent",
+    "layer1": "birthday_adventure:item/gold_helmet",
+    "layer2": "minecraft:trims/items/helmet_trim_diamond"
+  }
+}

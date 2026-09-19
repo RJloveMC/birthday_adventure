@@ -59,3 +59,8 @@ function birthday_adventure:knock/tick
 
 # Leather armor protects better than iron but less than diamond.
 execute as @a run function birthday_adventure:armor/leather
+
+# Correct hardcoded trade offers and natural mob equipment after the material swap.
+execute in minecraft:overworld run function birthday_adventure:materials/dimension
+execute in minecraft:the_nether run function birthday_adventure:materials/dimension
+execute in minecraft:the_end run function birthday_adventure:materials/dimension

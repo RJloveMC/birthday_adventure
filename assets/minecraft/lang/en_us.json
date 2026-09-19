@@ -7,5 +7,11 @@
   "item.minecraft.golden_helmet": "Leather Helmet",
   "item.minecraft.golden_chestplate": "Leather Chestplate",
   "item.minecraft.golden_leggings": "Leather Leggings",
-  "item.minecraft.golden_boots": "Leather Boots"
+  "item.minecraft.golden_boots": "Leather Boots",
+  "item.minecraft.leather_helmet": "Golden Helmet",
+  "item.minecraft.leather_chestplate": "Golden Chestplate",
+  "item.minecraft.leather_leggings": "Golden Leggings",
+  "item.minecraft.leather_boots": "Golden Boots",
+  "item.minecraft.leather": "Gold Ingot",
+  "item.minecraft.gold_ingot": "Leather"
 }

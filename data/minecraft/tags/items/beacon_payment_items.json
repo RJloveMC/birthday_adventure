@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:netherite_ingot",
+    "minecraft:emerald",
+    "minecraft:diamond",
+    "minecraft:leather",
+    "minecraft:iron_ingot"
+  ],
+  "replace": true
+}

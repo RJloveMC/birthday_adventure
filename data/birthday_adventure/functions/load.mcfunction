@@ -25,3 +25,7 @@ scoreboard objectives add knock_wait dummy
 scoreboard objectives add knock_time dummy
 scoreboard objectives add knock_phase dummy
 scoreboard players set #range knock_wait 18001
+
+# Track which villager offers have already had their material IDs swapped.
+scoreboard objectives add swap_seen dummy
+scoreboard objectives add swap_count dummy
